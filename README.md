@@ -1,4 +1,4 @@
-advanced-css
-============
+personal-page-demo
+==================
 
-more in 3D effect through css
+File stubs and assets for personal page in-class demo

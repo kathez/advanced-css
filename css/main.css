@@ -1,0 +1,80 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Homemade+Apple);
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.tag-line {
+	font-family: 'Homemade Apple';
+}
+
+header, section, footer {
+	padding: 1em;
+}
+
+header {
+	background-image: url(../img/background.jpg); 
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+
+header a:link,
+header a:visited {
+	color: #CCCCCC;
+	text-decoration: none;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	transition: all 0.5s;
+
+}
+
+header a:hover,
+header a:focus {
+	text-decoration: underline;
+	color: #FFFFFF;
+	background-color: #CC0000;
+	box-shadow: 10px 10px 5px rgba(50, 50, 50, 0.5);
+
+}
+
+#about, #projects {
+	background-color: #F2D74B;
+	overflow: auto;
+}
+
+#education, #contact {
+	background-color: #A65D18;
+}
+
+footer {
+	background-color: #D82327;
+}
+
+#about img {
+	max-height: 400px;
+	max-width: 400px;
+	float: left;
+	margin-right: 1em;
+	/* opacity: 1; */
+	transition: all 1s;
+
+}
+
+#about img:hover {
+	/* opacity: 0.7; */
+	transform: scale(1.1, 1.1) translateX(10px);
+	box-shadow: 10px 10px 5px rgba(50, 50, 50, 0.5);
+
+}
+
+#education {
+	clear: both;
+}
+
